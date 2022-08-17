@@ -76,7 +76,7 @@ def main():
                 except:
                     serverList[servidor]['Tick'] = 1
                 output = output + str(serverList[servidor]['NumUser']) + ','
-                qtdServidoresInativos = 0
+                servidoresInativos = 0
         if output == '':
             print('0')
             Saida.write('0\n')
